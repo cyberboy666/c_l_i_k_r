@@ -1,0 +1,1112 @@
+EESchema Schematic File Version 4
+LIBS:recur_control-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L promicro:ProMicro U1
+U 1 1 5FA2DA62
+P 8725 2800
+F 0 "U1" H 8725 3837 60  0000 C CNN
+F 1 "ProMicro" H 8725 3731 60  0000 C CNN
+F 2 "project_parts:ProMicro" H 8825 1750 60  0001 C CNN
+F 3 "" H 8825 1750 60  0000 C CNN
+	1    8725 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5FA3D1EB
+P 1925 1675
+F 0 "SW1" H 1925 1960 50  0000 C CNN
+F 1 "Push" H 1925 1869 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 1925 1875 50  0001 C CNN
+F 3 "~" H 1925 1875 50  0001 C CNN
+	1    1925 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5FA3E08B
+P 2525 1675
+F 0 "SW2" H 2525 1960 50  0000 C CNN
+F 1 "Push" H 2525 1869 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 2525 1875 50  0001 C CNN
+F 3 "~" H 2525 1875 50  0001 C CNN
+	1    2525 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5FA3E7A2
+P 3125 1675
+F 0 "SW3" H 3125 1960 50  0000 C CNN
+F 1 "Push" H 3125 1869 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 3125 1875 50  0001 C CNN
+F 3 "~" H 3125 1875 50  0001 C CNN
+	1    3125 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5FA3F10B
+P 3700 1675
+F 0 "SW4" H 3700 1960 50  0000 C CNN
+F 1 "Push" H 3700 1869 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 3700 1875 50  0001 C CNN
+F 3 "~" H 3700 1875 50  0001 C CNN
+	1    3700 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW5
+U 1 1 5FA3F930
+P 4275 1675
+F 0 "SW5" H 4275 1960 50  0000 C CNN
+F 1 "Push" H 4275 1869 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 4275 1875 50  0001 C CNN
+F 3 "~" H 4275 1875 50  0001 C CNN
+	1    4275 1675
+	1    0    0    -1  
+$EndComp
+Text GLabel 2125 1175 0    50   Input ~ 0
+key_x0
+Text GLabel 2725 1175 0    50   Input ~ 0
+key_x1
+Text GLabel 3325 1175 0    50   Input ~ 0
+key_x2
+Text GLabel 3900 1175 0    50   Input ~ 0
+key_x3
+Text GLabel 4475 1175 0    50   Input ~ 0
+key_x4
+$Comp
+L Switch:SW_Push SW6
+U 1 1 5FA405CD
+P 1925 2225
+F 0 "SW6" H 1925 2510 50  0000 C CNN
+F 1 "Push" H 1925 2419 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 1925 2425 50  0001 C CNN
+F 3 "~" H 1925 2425 50  0001 C CNN
+	1    1925 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW7
+U 1 1 5FA405D7
+P 2525 2225
+F 0 "SW7" H 2525 2510 50  0000 C CNN
+F 1 "Push" H 2525 2419 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 2525 2425 50  0001 C CNN
+F 3 "~" H 2525 2425 50  0001 C CNN
+	1    2525 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW8
+U 1 1 5FA405E1
+P 3125 2225
+F 0 "SW8" H 3125 2510 50  0000 C CNN
+F 1 "Push" H 3125 2419 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 3125 2425 50  0001 C CNN
+F 3 "~" H 3125 2425 50  0001 C CNN
+	1    3125 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW9
+U 1 1 5FA405EB
+P 3700 2225
+F 0 "SW9" H 3700 2510 50  0000 C CNN
+F 1 "Push" H 3700 2419 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 3700 2425 50  0001 C CNN
+F 3 "~" H 3700 2425 50  0001 C CNN
+	1    3700 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW10
+U 1 1 5FA405F5
+P 4275 2225
+F 0 "SW10" H 4275 2510 50  0000 C CNN
+F 1 "Push" H 4275 2419 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 4275 2425 50  0001 C CNN
+F 3 "~" H 4275 2425 50  0001 C CNN
+	1    4275 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW11
+U 1 1 5FA426E0
+P 1925 2750
+F 0 "SW11" H 1925 3035 50  0000 C CNN
+F 1 "Push" H 1925 2944 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 1925 2950 50  0001 C CNN
+F 3 "~" H 1925 2950 50  0001 C CNN
+	1    1925 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW12
+U 1 1 5FA426EA
+P 2525 2750
+F 0 "SW12" H 2525 3035 50  0000 C CNN
+F 1 "Push" H 2525 2944 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 2525 2950 50  0001 C CNN
+F 3 "~" H 2525 2950 50  0001 C CNN
+	1    2525 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW13
+U 1 1 5FA426F4
+P 3125 2750
+F 0 "SW13" H 3125 3035 50  0000 C CNN
+F 1 "Push" H 3125 2944 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 3125 2950 50  0001 C CNN
+F 3 "~" H 3125 2950 50  0001 C CNN
+	1    3125 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW14
+U 1 1 5FA426FE
+P 3700 2750
+F 0 "SW14" H 3700 3035 50  0000 C CNN
+F 1 "Push" H 3700 2944 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 3700 2950 50  0001 C CNN
+F 3 "~" H 3700 2950 50  0001 C CNN
+	1    3700 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW15
+U 1 1 5FA42708
+P 4275 2750
+F 0 "SW15" H 4275 3035 50  0000 C CNN
+F 1 "Push" H 4275 2944 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 4275 2950 50  0001 C CNN
+F 3 "~" H 4275 2950 50  0001 C CNN
+	1    4275 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW16
+U 1 1 5FA42712
+P 1925 3300
+F 0 "SW16" H 1925 3585 50  0000 C CNN
+F 1 "Push" H 1925 3494 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 1925 3500 50  0001 C CNN
+F 3 "~" H 1925 3500 50  0001 C CNN
+	1    1925 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW17
+U 1 1 5FA4271C
+P 2525 3300
+F 0 "SW17" H 2525 3585 50  0000 C CNN
+F 1 "Push" H 2525 3494 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 2525 3500 50  0001 C CNN
+F 3 "~" H 2525 3500 50  0001 C CNN
+	1    2525 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW18
+U 1 1 5FA42726
+P 3125 3300
+F 0 "SW18" H 3125 3585 50  0000 C CNN
+F 1 "Push" H 3125 3494 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 3125 3500 50  0001 C CNN
+F 3 "~" H 3125 3500 50  0001 C CNN
+	1    3125 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW19
+U 1 1 5FA42730
+P 3700 3300
+F 0 "SW19" H 3700 3585 50  0000 C CNN
+F 1 "Push" H 3700 3494 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 3700 3500 50  0001 C CNN
+F 3 "~" H 3700 3500 50  0001 C CNN
+	1    3700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW20
+U 1 1 5FA4273A
+P 4275 3300
+F 0 "SW20" H 4275 3585 50  0000 C CNN
+F 1 "Push" H 4275 3494 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 4275 3500 50  0001 C CNN
+F 3 "~" H 4275 3500 50  0001 C CNN
+	1    4275 3300
+	1    0    0    -1  
+$EndComp
+Text GLabel 1475 1825 0    50   Input ~ 0
+key_y0
+Text GLabel 1475 2400 0    50   Input ~ 0
+key_y1
+Text GLabel 1475 2950 0    50   Input ~ 0
+key_y2
+Text GLabel 1475 3475 0    50   Input ~ 0
+key_y3
+Wire Wire Line
+	1475 1825 1725 1825
+Wire Wire Line
+	4075 1825 4075 1675
+Wire Wire Line
+	1475 2400 1725 2400
+Wire Wire Line
+	4075 2400 4075 2225
+Wire Wire Line
+	1475 2950 1725 2950
+Wire Wire Line
+	4075 2950 4075 2750
+Wire Wire Line
+	1475 3475 1725 3475
+Wire Wire Line
+	4075 3475 4075 3300
+Wire Wire Line
+	1725 1675 1725 1825
+Connection ~ 1725 1825
+Wire Wire Line
+	1725 1825 2325 1825
+Wire Wire Line
+	2325 1675 2325 1825
+Connection ~ 2325 1825
+Wire Wire Line
+	2325 1825 2925 1825
+Wire Wire Line
+	2925 1675 2925 1825
+Connection ~ 2925 1825
+Wire Wire Line
+	2925 1825 3500 1825
+Wire Wire Line
+	3500 1675 3500 1825
+Connection ~ 3500 1825
+Wire Wire Line
+	3500 1825 4075 1825
+Wire Wire Line
+	1725 2225 1725 2400
+Connection ~ 1725 2400
+Wire Wire Line
+	1725 2400 2325 2400
+Wire Wire Line
+	2325 2225 2325 2400
+Connection ~ 2325 2400
+Wire Wire Line
+	2325 2400 2925 2400
+Wire Wire Line
+	2925 2225 2925 2400
+Connection ~ 2925 2400
+Wire Wire Line
+	2925 2400 3500 2400
+Wire Wire Line
+	3500 2225 3500 2400
+Connection ~ 3500 2400
+Wire Wire Line
+	3500 2400 4075 2400
+Wire Wire Line
+	1725 2750 1725 2950
+Connection ~ 1725 2950
+Wire Wire Line
+	1725 2950 2325 2950
+Wire Wire Line
+	2325 2750 2325 2950
+Connection ~ 2325 2950
+Wire Wire Line
+	2325 2950 2925 2950
+Wire Wire Line
+	2925 2750 2925 2950
+Connection ~ 2925 2950
+Wire Wire Line
+	2925 2950 3500 2950
+Wire Wire Line
+	3500 2750 3500 2950
+Connection ~ 3500 2950
+Wire Wire Line
+	3500 2950 4075 2950
+Wire Wire Line
+	1725 3300 1725 3475
+Connection ~ 1725 3475
+Wire Wire Line
+	1725 3475 2325 3475
+Wire Wire Line
+	2325 3300 2325 3475
+Connection ~ 2325 3475
+Wire Wire Line
+	2325 3475 2925 3475
+Wire Wire Line
+	2925 3300 2925 3475
+Connection ~ 2925 3475
+Wire Wire Line
+	2925 3475 3500 3475
+Wire Wire Line
+	3500 3300 3500 3475
+Connection ~ 3500 3475
+Wire Wire Line
+	3500 3475 4075 3475
+Wire Wire Line
+	2125 3300 2125 2750
+Connection ~ 2125 1675
+Wire Wire Line
+	2125 1675 2125 1175
+Connection ~ 2125 2225
+Wire Wire Line
+	2125 2225 2125 1675
+Connection ~ 2125 2750
+Wire Wire Line
+	2125 2750 2125 2225
+Wire Wire Line
+	2725 3300 2725 2750
+Connection ~ 2725 1675
+Wire Wire Line
+	2725 1675 2725 1175
+Connection ~ 2725 2225
+Wire Wire Line
+	2725 2225 2725 1675
+Connection ~ 2725 2750
+Wire Wire Line
+	2725 2750 2725 2225
+Wire Wire Line
+	3325 3300 3325 2750
+Connection ~ 3325 1675
+Wire Wire Line
+	3325 1675 3325 1175
+Connection ~ 3325 2225
+Wire Wire Line
+	3325 2225 3325 1675
+Connection ~ 3325 2750
+Wire Wire Line
+	3325 2750 3325 2225
+Wire Wire Line
+	3900 3300 3900 2750
+Connection ~ 3900 1675
+Wire Wire Line
+	3900 1675 3900 1175
+Connection ~ 3900 2225
+Wire Wire Line
+	3900 2225 3900 1675
+Connection ~ 3900 2750
+Wire Wire Line
+	3900 2750 3900 2225
+Wire Wire Line
+	4475 3300 4475 2750
+Connection ~ 4475 1675
+Wire Wire Line
+	4475 1675 4475 1175
+Connection ~ 4475 2225
+Wire Wire Line
+	4475 2225 4475 1675
+Connection ~ 4475 2750
+Wire Wire Line
+	4475 2750 4475 2225
+Text Notes 1425 825  0    89   ~ 0
+KEY_MATRIX
+$Comp
+L Device:R_POT RV1
+U 1 1 5FA6F5CC
+P 1525 4450
+F 0 "RV1" H 1456 4496 50  0000 R CNN
+F 1 "10k_pot" H 1456 4405 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09L_Single_Vertical" H 1525 4450 50  0001 C CNN
+F 3 "~" H 1525 4450 50  0001 C CNN
+	1    1525 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR03
+U 1 1 5FA6FE44
+P 1525 4225
+F 0 "#PWR03" H 1525 4075 50  0001 C CNN
+F 1 "+5V" H 1540 4398 50  0000 C CNN
+F 2 "" H 1525 4225 50  0001 C CNN
+F 3 "" H 1525 4225 50  0001 C CNN
+	1    1525 4225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5FA70868
+P 1525 4700
+F 0 "#PWR07" H 1525 4450 50  0001 C CNN
+F 1 "GND" H 1530 4527 50  0000 C CNN
+F 2 "" H 1525 4700 50  0001 C CNN
+F 3 "" H 1525 4700 50  0001 C CNN
+	1    1525 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1525 4700 1525 4600
+Wire Wire Line
+	1525 4300 1525 4225
+Text GLabel 1975 4450 2    50   Input ~ 0
+analog_0
+Wire Wire Line
+	1675 4450 1975 4450
+$Comp
+L Device:R_POT RV2
+U 1 1 5FA7BC82
+P 2775 4475
+F 0 "RV2" H 2706 4521 50  0000 R CNN
+F 1 "10k_pot" H 2706 4430 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09L_Single_Vertical" H 2775 4475 50  0001 C CNN
+F 3 "~" H 2775 4475 50  0001 C CNN
+	1    2775 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR04
+U 1 1 5FA7BC8C
+P 2775 4250
+F 0 "#PWR04" H 2775 4100 50  0001 C CNN
+F 1 "+5V" H 2790 4423 50  0000 C CNN
+F 2 "" H 2775 4250 50  0001 C CNN
+F 3 "" H 2775 4250 50  0001 C CNN
+	1    2775 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5FA7BC96
+P 2775 4725
+F 0 "#PWR08" H 2775 4475 50  0001 C CNN
+F 1 "GND" H 2780 4552 50  0000 C CNN
+F 2 "" H 2775 4725 50  0001 C CNN
+F 3 "" H 2775 4725 50  0001 C CNN
+	1    2775 4725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2775 4725 2775 4625
+Wire Wire Line
+	2775 4325 2775 4250
+Text GLabel 3225 4475 2    50   Input ~ 0
+analog_1
+Wire Wire Line
+	2925 4475 3225 4475
+$Comp
+L Device:R_POT RV3
+U 1 1 5FA7F9FF
+P 4200 4475
+F 0 "RV3" H 4131 4521 50  0000 R CNN
+F 1 "10k_pot" H 4131 4430 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09L_Single_Vertical" H 4200 4475 50  0001 C CNN
+F 3 "~" H 4200 4475 50  0001 C CNN
+	1    4200 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR05
+U 1 1 5FA7FA09
+P 4200 4250
+F 0 "#PWR05" H 4200 4100 50  0001 C CNN
+F 1 "+5V" H 4215 4423 50  0000 C CNN
+F 2 "" H 4200 4250 50  0001 C CNN
+F 3 "" H 4200 4250 50  0001 C CNN
+	1    4200 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5FA7FA13
+P 4200 4725
+F 0 "#PWR09" H 4200 4475 50  0001 C CNN
+F 1 "GND" H 4205 4552 50  0000 C CNN
+F 2 "" H 4200 4725 50  0001 C CNN
+F 3 "" H 4200 4725 50  0001 C CNN
+	1    4200 4725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 4725 4200 4625
+Wire Wire Line
+	4200 4325 4200 4250
+Text GLabel 4650 4475 2    50   Input ~ 0
+analog_2
+Wire Wire Line
+	4350 4475 4650 4475
+$Comp
+L Device:R_POT RV4
+U 1 1 5FA7FA21
+P 5450 4500
+F 0 "RV4" H 5381 4546 50  0000 R CNN
+F 1 "10k_pot" H 5381 4455 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09L_Single_Vertical" H 5450 4500 50  0001 C CNN
+F 3 "~" H 5450 4500 50  0001 C CNN
+	1    5450 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR06
+U 1 1 5FA7FA2B
+P 5450 4275
+F 0 "#PWR06" H 5450 4125 50  0001 C CNN
+F 1 "+5V" H 5465 4448 50  0000 C CNN
+F 2 "" H 5450 4275 50  0001 C CNN
+F 3 "" H 5450 4275 50  0001 C CNN
+	1    5450 4275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5FA7FA35
+P 5450 4750
+F 0 "#PWR010" H 5450 4500 50  0001 C CNN
+F 1 "GND" H 5455 4577 50  0000 C CNN
+F 2 "" H 5450 4750 50  0001 C CNN
+F 3 "" H 5450 4750 50  0001 C CNN
+	1    5450 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4750 5450 4650
+Wire Wire Line
+	5450 4350 5450 4275
+Text GLabel 5900 4500 2    50   Input ~ 0
+analog_3
+Wire Wire Line
+	5600 4500 5900 4500
+$Comp
+L Connector:AudioJack2_SwitchT J3
+U 1 1 5FA8384F
+P 1050 5900
+F 0 "J3" H 1082 6225 50  0000 C CNN
+F 1 "mono_jack_3.5mm" H 1082 6134 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1050 5900 50  0001 C CNN
+F 3 "~" H 1050 5900 50  0001 C CNN
+	1    1050 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR019
+U 1 1 5FA84545
+P 1350 6250
+F 0 "#PWR019" H 1350 6000 50  0001 C CNN
+F 1 "GND" H 1355 6077 50  0000 C CNN
+F 2 "" H 1350 6250 50  0001 C CNN
+F 3 "" H 1350 6250 50  0001 C CNN
+	1    1350 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 5800 1350 5800
+Wire Wire Line
+	1350 5800 1350 6000
+Wire Wire Line
+	1250 6000 1350 6000
+$Comp
+L Device:D D7
+U 1 1 5FA8903C
+P 1675 6100
+F 0 "D7" V 1629 6179 50  0000 L CNN
+F 1 "bat46" V 1720 6179 50  0000 L CNN
+F 2 "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal" H 1675 6100 50  0001 C CNN
+F 3 "~" H 1675 6100 50  0001 C CNN
+	1    1675 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5FA89BFC
+P 1675 5675
+F 0 "D3" V 1629 5754 50  0000 L CNN
+F 1 "bat46" V 1720 5754 50  0000 L CNN
+F 2 "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal" H 1675 5675 50  0001 C CNN
+F 3 "~" H 1675 5675 50  0001 C CNN
+	1    1675 5675
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 5FA8A59C
+P 1675 6250
+F 0 "#PWR020" H 1675 6000 50  0001 C CNN
+F 1 "GND" H 1680 6077 50  0000 C CNN
+F 2 "" H 1675 6250 50  0001 C CNN
+F 3 "" H 1675 6250 50  0001 C CNN
+	1    1675 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR013
+U 1 1 5FA8C946
+P 1675 5525
+F 0 "#PWR013" H 1675 5375 50  0001 C CNN
+F 1 "+5V" H 1690 5698 50  0000 C CNN
+F 2 "" H 1675 5525 50  0001 C CNN
+F 3 "" H 1675 5525 50  0001 C CNN
+	1    1675 5525
+	1    0    0    -1  
+$EndComp
+Text GLabel 2175 5900 2    50   Input ~ 0
+analog_4
+Wire Wire Line
+	1675 5950 1675 5900
+Connection ~ 1675 5900
+Wire Wire Line
+	1675 5900 1675 5825
+Wire Wire Line
+	1350 6250 1350 6000
+Connection ~ 1350 6000
+Wire Wire Line
+	1250 5900 1675 5900
+$Comp
+L Connector:AudioJack2_SwitchT J4
+U 1 1 5FAA14E4
+P 3350 5900
+F 0 "J4" H 3382 6225 50  0000 C CNN
+F 1 "mono_jack_3.5mm" H 3382 6134 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 3350 5900 50  0001 C CNN
+F 3 "~" H 3350 5900 50  0001 C CNN
+	1    3350 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 5FAA14EE
+P 3650 6250
+F 0 "#PWR021" H 3650 6000 50  0001 C CNN
+F 1 "GND" H 3655 6077 50  0000 C CNN
+F 2 "" H 3650 6250 50  0001 C CNN
+F 3 "" H 3650 6250 50  0001 C CNN
+	1    3650 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 5800 3650 5800
+Wire Wire Line
+	3650 5800 3650 6000
+Wire Wire Line
+	3550 6000 3650 6000
+$Comp
+L Device:D D8
+U 1 1 5FAA14FB
+P 3975 6100
+F 0 "D8" V 3929 6179 50  0000 L CNN
+F 1 "bat46" V 4020 6179 50  0000 L CNN
+F 2 "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal" H 3975 6100 50  0001 C CNN
+F 3 "~" H 3975 6100 50  0001 C CNN
+	1    3975 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 5FAA1505
+P 3975 5675
+F 0 "D4" V 3929 5754 50  0000 L CNN
+F 1 "bat46" V 4020 5754 50  0000 L CNN
+F 2 "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal" H 3975 5675 50  0001 C CNN
+F 3 "~" H 3975 5675 50  0001 C CNN
+	1    3975 5675
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR022
+U 1 1 5FAA150F
+P 3975 6250
+F 0 "#PWR022" H 3975 6000 50  0001 C CNN
+F 1 "GND" H 3980 6077 50  0000 C CNN
+F 2 "" H 3975 6250 50  0001 C CNN
+F 3 "" H 3975 6250 50  0001 C CNN
+	1    3975 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR014
+U 1 1 5FAA1519
+P 3975 5525
+F 0 "#PWR014" H 3975 5375 50  0001 C CNN
+F 1 "+5V" H 3990 5698 50  0000 C CNN
+F 2 "" H 3975 5525 50  0001 C CNN
+F 3 "" H 3975 5525 50  0001 C CNN
+	1    3975 5525
+	1    0    0    -1  
+$EndComp
+Text GLabel 4475 5900 2    50   Input ~ 0
+analog_5
+Wire Wire Line
+	3975 5950 3975 5900
+Connection ~ 3975 5900
+Wire Wire Line
+	3975 5900 3975 5825
+Wire Wire Line
+	3650 6250 3650 6000
+Connection ~ 3650 6000
+Wire Wire Line
+	3550 5900 3975 5900
+$Comp
+L Connector:AudioJack2_SwitchT J1
+U 1 1 5FAA5CF4
+P 5550 5875
+F 0 "J1" H 5582 6200 50  0000 C CNN
+F 1 "mono_jack_3.5mm" H 5582 6109 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 5550 5875 50  0001 C CNN
+F 3 "~" H 5550 5875 50  0001 C CNN
+	1    5550 5875
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 5FAA5CFE
+P 5850 6225
+F 0 "#PWR015" H 5850 5975 50  0001 C CNN
+F 1 "GND" H 5855 6052 50  0000 C CNN
+F 2 "" H 5850 6225 50  0001 C CNN
+F 3 "" H 5850 6225 50  0001 C CNN
+	1    5850 6225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 5775 5850 5775
+Wire Wire Line
+	5850 5775 5850 5975
+Wire Wire Line
+	5750 5975 5850 5975
+$Comp
+L Device:D D5
+U 1 1 5FAA5D0B
+P 6175 6075
+F 0 "D5" V 6129 6154 50  0000 L CNN
+F 1 "bat46" V 6220 6154 50  0000 L CNN
+F 2 "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal" H 6175 6075 50  0001 C CNN
+F 3 "~" H 6175 6075 50  0001 C CNN
+	1    6175 6075
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5FAA5D15
+P 6175 5650
+F 0 "D1" V 6129 5729 50  0000 L CNN
+F 1 "bat46" V 6220 5729 50  0000 L CNN
+F 2 "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal" H 6175 5650 50  0001 C CNN
+F 3 "~" H 6175 5650 50  0001 C CNN
+	1    6175 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 5FAA5D1F
+P 6175 6225
+F 0 "#PWR016" H 6175 5975 50  0001 C CNN
+F 1 "GND" H 6180 6052 50  0000 C CNN
+F 2 "" H 6175 6225 50  0001 C CNN
+F 3 "" H 6175 6225 50  0001 C CNN
+	1    6175 6225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR011
+U 1 1 5FAA5D29
+P 6175 5500
+F 0 "#PWR011" H 6175 5350 50  0001 C CNN
+F 1 "+5V" H 6190 5673 50  0000 C CNN
+F 2 "" H 6175 5500 50  0001 C CNN
+F 3 "" H 6175 5500 50  0001 C CNN
+	1    6175 5500
+	1    0    0    -1  
+$EndComp
+Text GLabel 6675 5875 2    50   Input ~ 0
+analog_6
+Wire Wire Line
+	6175 5925 6175 5875
+Connection ~ 6175 5875
+Wire Wire Line
+	6175 5875 6175 5800
+Wire Wire Line
+	5850 6225 5850 5975
+Connection ~ 5850 5975
+Wire Wire Line
+	5750 5875 6175 5875
+$Comp
+L Connector:AudioJack2_SwitchT J2
+U 1 1 5FAA5D3B
+P 7700 5875
+F 0 "J2" H 7732 6200 50  0000 C CNN
+F 1 "mono_jack_3.5mm" H 7732 6109 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 7700 5875 50  0001 C CNN
+F 3 "~" H 7700 5875 50  0001 C CNN
+	1    7700 5875
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 5FAA5D45
+P 8000 6225
+F 0 "#PWR017" H 8000 5975 50  0001 C CNN
+F 1 "GND" H 8005 6052 50  0000 C CNN
+F 2 "" H 8000 6225 50  0001 C CNN
+F 3 "" H 8000 6225 50  0001 C CNN
+	1    8000 6225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 5775 8000 5775
+Wire Wire Line
+	8000 5775 8000 5975
+Wire Wire Line
+	7900 5975 8000 5975
+$Comp
+L Device:D D6
+U 1 1 5FAA5D52
+P 8325 6075
+F 0 "D6" V 8279 6154 50  0000 L CNN
+F 1 "bat46" V 8370 6154 50  0000 L CNN
+F 2 "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal" H 8325 6075 50  0001 C CNN
+F 3 "~" H 8325 6075 50  0001 C CNN
+	1    8325 6075
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5FAA5D5C
+P 8325 5650
+F 0 "D2" V 8279 5729 50  0000 L CNN
+F 1 "bat46" V 8370 5729 50  0000 L CNN
+F 2 "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal" H 8325 5650 50  0001 C CNN
+F 3 "~" H 8325 5650 50  0001 C CNN
+	1    8325 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 5FAA5D66
+P 8325 6225
+F 0 "#PWR018" H 8325 5975 50  0001 C CNN
+F 1 "GND" H 8330 6052 50  0000 C CNN
+F 2 "" H 8325 6225 50  0001 C CNN
+F 3 "" H 8325 6225 50  0001 C CNN
+	1    8325 6225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR012
+U 1 1 5FAA5D70
+P 8325 5500
+F 0 "#PWR012" H 8325 5350 50  0001 C CNN
+F 1 "+5V" H 8340 5673 50  0000 C CNN
+F 2 "" H 8325 5500 50  0001 C CNN
+F 3 "" H 8325 5500 50  0001 C CNN
+	1    8325 5500
+	1    0    0    -1  
+$EndComp
+Text GLabel 8900 5875 2    50   Input ~ 0
+analog_7
+Wire Wire Line
+	8325 5925 8325 5875
+Connection ~ 8325 5875
+Wire Wire Line
+	8325 5875 8325 5800
+Wire Wire Line
+	8000 6225 8000 5975
+Connection ~ 8000 5975
+Wire Wire Line
+	7900 5875 8325 5875
+Text Notes 1575 3925 0    89   ~ 0
+ANALOG_INPUT
+Text Notes 7525 1425 0    89   ~ 0
+MICRO_CONTROLLER
+Text GLabel 9575 2450 2    50   Input ~ 0
+analog_7
+Text GLabel 9575 2550 2    50   Input ~ 0
+analog_6
+Text GLabel 9575 2650 2    50   Input ~ 0
+analog_5
+Text GLabel 9575 2750 2    50   Input ~ 0
+analog_4
+Text GLabel 9575 3150 2    50   Input ~ 0
+analog_3
+Text GLabel 7900 3150 0    50   Input ~ 0
+analog_2
+Text GLabel 7900 3050 0    50   Input ~ 0
+analog_1
+Text GLabel 7900 2850 0    50   Input ~ 0
+analog_0
+Wire Wire Line
+	9575 2450 9425 2450
+Wire Wire Line
+	9575 2550 9425 2550
+Wire Wire Line
+	9575 2650 9425 2650
+Wire Wire Line
+	9575 2750 9425 2750
+Wire Wire Line
+	9575 3150 9425 3150
+Wire Wire Line
+	8025 3150 7900 3150
+Wire Wire Line
+	8025 3050 7900 3050
+Wire Wire Line
+	8025 2850 7900 2850
+Text GLabel 7900 2050 0    50   Input ~ 0
+key_x0
+Wire Wire Line
+	7900 2550 8025 2550
+Text GLabel 7900 2150 0    50   Input ~ 0
+key_x1
+Wire Wire Line
+	7900 2650 8025 2650
+Text GLabel 7900 2450 0    50   Input ~ 0
+key_x2
+Text GLabel 7900 2550 0    50   Input ~ 0
+key_x3
+Wire Wire Line
+	8025 2950 7900 2950
+Text GLabel 7900 2650 0    50   Input ~ 0
+key_x4
+Wire Wire Line
+	7900 2050 8025 2050
+Wire Wire Line
+	7900 2150 8025 2150
+Wire Wire Line
+	7900 2450 8025 2450
+Text GLabel 7900 2750 0    50   Input ~ 0
+key_y0
+Text GLabel 7900 2950 0    50   Input ~ 0
+key_y1
+Text GLabel 9575 3050 2    50   Input ~ 0
+key_y2
+Text GLabel 9575 2950 2    50   Input ~ 0
+key_y3
+Wire Wire Line
+	8025 2750 7900 2750
+Wire Wire Line
+	9425 2950 9575 2950
+Wire Wire Line
+	9575 3050 9425 3050
+NoConn ~ 9425 2850
+NoConn ~ 8025 2350
+NoConn ~ 8025 2250
+$Comp
+L power:+5V #PWR02
+U 1 1 5FB286E1
+P 9775 2350
+F 0 "#PWR02" H 9775 2200 50  0001 C CNN
+F 1 "+5V" H 9790 2523 50  0000 C CNN
+F 2 "" H 9775 2350 50  0001 C CNN
+F 3 "" H 9775 2350 50  0001 C CNN
+	1    9775 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9775 2350 9425 2350
+$Comp
+L power:GND #PWR01
+U 1 1 5FB2D408
+P 9575 2125
+F 0 "#PWR01" H 9575 1875 50  0001 C CNN
+F 1 "GND" H 9580 1952 50  0000 C CNN
+F 2 "" H 9575 2125 50  0001 C CNN
+F 3 "" H 9575 2125 50  0001 C CNN
+	1    9575 2125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9575 2125 9425 2125
+Wire Wire Line
+	9425 2125 9425 2150
+NoConn ~ 9425 2050
+NoConn ~ 9425 2250
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5FB3968E
+P 9925 2125
+F 0 "#FLG0101" H 9925 2200 50  0001 C CNN
+F 1 "PWR_FLAG" V 9925 2253 50  0000 L CNN
+F 2 "" H 9925 2125 50  0001 C CNN
+F 3 "~" H 9925 2125 50  0001 C CNN
+	1    9925 2125
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5FB39D8D
+P 9925 2350
+F 0 "#FLG0102" H 9925 2425 50  0001 C CNN
+F 1 "PWR_FLAG" V 9925 2478 50  0000 L CNN
+F 2 "" H 9925 2350 50  0001 C CNN
+F 3 "~" H 9925 2350 50  0001 C CNN
+	1    9925 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9925 2350 9775 2350
+Connection ~ 9775 2350
+Wire Wire Line
+	9925 2125 9575 2125
+Connection ~ 9575 2125
+$Comp
+L Device:R R1
+U 1 1 60DF4C82
+P 1950 5900
+F 0 "R1" V 1850 5900 50  0000 C CNN
+F 1 "1k" V 1950 5900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1880 5900 50  0001 C CNN
+F 3 "~" H 1950 5900 50  0001 C CNN
+	1    1950 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 60DF67FD
+P 4250 5900
+F 0 "R2" V 4150 5900 50  0000 C CNN
+F 1 "1k" V 4250 5900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4180 5900 50  0001 C CNN
+F 3 "~" H 4250 5900 50  0001 C CNN
+	1    4250 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 60DF7205
+P 6450 5875
+F 0 "R3" V 6350 5875 50  0000 C CNN
+F 1 "1k" V 6450 5875 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6380 5875 50  0001 C CNN
+F 3 "~" H 6450 5875 50  0001 C CNN
+	1    6450 5875
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 60E0CE03
+P 8650 5875
+F 0 "R4" V 8550 5875 50  0000 C CNN
+F 1 "1k" V 8650 5875 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8580 5875 50  0001 C CNN
+F 3 "~" H 8650 5875 50  0001 C CNN
+	1    8650 5875
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8900 5875 8800 5875
+Wire Wire Line
+	8500 5875 8325 5875
+Wire Wire Line
+	6675 5875 6600 5875
+Wire Wire Line
+	6300 5875 6175 5875
+Wire Wire Line
+	4475 5900 4400 5900
+Wire Wire Line
+	4100 5900 3975 5900
+Wire Wire Line
+	2175 5900 2100 5900
+Wire Wire Line
+	1800 5900 1675 5900
+$EndSCHEMATC
