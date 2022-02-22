@@ -1,6 +1,9 @@
 # c_l_i_k_r
 a r_e_c_u_r video sampler extension circuit - custom keypad/midi controller
 
+![image](https://user-images.githubusercontent.com/12017938/155051549-ab0c8082-27c4-49ca-bed0-12ccfbea26ba.png)
+
+
 ### motivation
 
 this is a lil circuit that aims to offer a low-cost alternative to using cheapo plastic numpads to control recur. when i first designed recur i decided to use [these](https://www.aliexpress.com/item/4000748567192.html) numpads from aliexpress. my main goals at the time were making the project as simple and accessable as possible. however over the last few years many people have had problems using (possible variations?) of these numpads and others. seemingly similar devices run conflicting firmware, different layout of keys on different versions, crashes, gross hacks needed in the code, partial working units, and many more frustrating problems that are impossible for me to debug without owning every differnet device. i am also aware of contributing to the consumption of ecologically and ethically problematic products by endorsing these devices..
