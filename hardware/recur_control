@@ -1,6 +1,0 @@
-Reference, Quantity, Value, Footprint, Datasheet
-D7 D3 D8 D4 D5 D1 D6 D2 ,8,"bat46","Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal","~"
-J3 J4 J1 J2 ,4,"mono_jack_3.5mm","Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles","~"
-RV1 RV2 RV3 RV4 ,4,"10k_pot","Potentiometer_THT:Potentiometer_Alps_RK09L_Single_Vertical","~"
-SW1 SW2 SW3 SW4 SW5 SW6 SW7 SW8 SW9 SW10 SW11 SW12 SW13 SW14 SW15 SW16 SW17 SW18 SW19 SW20 ,20,"Push","Button_Switch_THT:SW_PUSH_6mm_H7.3mm","~"
-U1 ,1,"ProMicro","project_parts:ProMicro",""
