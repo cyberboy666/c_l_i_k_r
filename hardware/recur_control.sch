@@ -1,15 +1,14 @@
 EESchema Schematic File Version 4
-LIBS:recur_control-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "c_l_i_k_r"
+Date "2022-02-22"
+Rev "v_0_2_1"
+Comp "cyberboy666"
+Comment1 "CC-BY-SA"
 Comment2 ""
 Comment3 ""
 Comment4 ""
