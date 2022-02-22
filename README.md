@@ -1,8 +1,7 @@
 # c_l_i_k_r
 a r_e_c_u_r video sampler extension circuit - custom keypad/midi controller
 
-![image](https://user-images.githubusercontent.com/12017938/155051549-ab0c8082-27c4-49ca-bed0-12ccfbea26ba.png)
-
+![image](https://user-images.githubusercontent.com/12017938/155051670-fe0eac9f-a5bc-49ee-8b36-d878c3d2a5ef.png)
 
 ### motivation
 
