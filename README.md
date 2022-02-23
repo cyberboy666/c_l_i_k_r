@@ -141,7 +141,7 @@ Ask any questions or start discussions related to this project on the [scanlines
 You can contact me directly at tim (at) cyberboy666 (dot) com 
 Please get in touch if you are interested in hosting a workshop !
 
-![image](https://user-images.githubusercontent.com/12017938/152463166-0fea052b-1eed-4f63-a59d-55c360bfea76.png)
+![image](https://user-images.githubusercontent.com/12017938/155425518-89547b7b-026a-47a5-9c56-976330a4267f.png)
 
 
 Thanks to all the r_e_c_u_r users who inspire me to better this project! to Bastien Lavaud for circuit advice, always. To Ben Caldwell for project advice. To everyone who has or will contribute ♥♥♥
