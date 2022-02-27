@@ -108,8 +108,20 @@ if you have got a kit from the shop the firmware will be pre-configured - still 
   
 <details><summary><b>operating guide</b> - start here if you have purchased an assembled unit</summary>
 
-[coming soon]
+![image](https://user-images.githubusercontent.com/12017938/155868459-193cc2f6-f5e4-4707-9569-fd2e47ec18fe.png)
+ 
+By connecting _c_l_i_k_r_ to _r_e_c_u_r_ with a usb cable the pi should auto-detect it as a usb-keyboard – as with any recur controls you will need to connect the keyboard before booting to ensure key mapping is performed on boot.
 
+If `MIDI_INPUT` is set to `usb` under the _r_e_c_u_r_ __user_input__ setting then it should auto-detect it as usb-midi-controller also.
+
+If you wish to instead connect a different midi device while using _c_l_i_k_r_ as a keyboard try the `CYCLE_MIDI_PORT` action in __user_input__ settings
+
+The default mapping outputs `channel0: cc0 – cc3` on the 4 knobs and cv inputs of _c_l_i_k_r_ – this can be customised by editing the _c_l_i_k_r_ firmware. Tact buttons do not send midi by default but this can be enabled also in the firmware
+
+## flashing firmware to micro-controller
+
+[coming soon]
+  
 </details>
 
 ### more info
