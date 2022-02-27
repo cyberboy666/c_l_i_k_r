@@ -3,14 +3,14 @@ a [r_e_c_u_r](https://github.com/cyberboy666/r_e_c_u_r) video sampler extension 
 
 ![image](https://user-images.githubusercontent.com/12017938/155051670-fe0eac9f-a5bc-49ee-8b36-d878c3d2a5ef.png)
 
-__NOTE__ : _c_l_i_k_r is an extension circuit for my existing raspberry pi project [r_e_c_u_r](https://github.com/cyberboy666/r_e_c_u_r) - although this circuit will function as a stand alone midi+keypad controller it is mainly intended to be used with r_e_c_u_r_
-
 - this circuit is distributed by __UNDERSCORES__ - _an open video hardware label_ : it is available to purchase - as a pcb, kit or assembled unit - at [underscores.shop](https://underscores.shop/c_l_i_k_r/)
 - the schematic for the circuit can be found [here](/hardware/schematic.pdf)
 - the pcb gerber files for the lastest version can be found [here](/hardware/gerber_latest.zip)
 - consider [donating](https://liberapay.com/underscores/) to the underscores project to help us continue creating for the commons
 
-## features
+## description
+
+__NOTE__ : _c_l_i_k_r is an extension circuit for my existing raspberry pi project [r_e_c_u_r](https://github.com/cyberboy666/r_e_c_u_r) - although this circuit will function as a stand alone midi+keypad controller it is mainly intended to be used with r_e_c_u_r_
 
 - 20x tac-switches for discrete control
 - 4x knobs + 4x cv inputs for continuous control
