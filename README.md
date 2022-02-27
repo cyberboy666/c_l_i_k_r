@@ -44,6 +44,8 @@ i try to source all the parts i can from either:
 
 take a look at the [full_bom](/hardware/bom/full_bom.csv) for this project to see where i am sourcing each part from
 
+since the only part on this BOM from mouser is the pots it may not be worth doing an order only for these - you could replace these with tayda pots `A-5531 or `A-1850` instead - if you are happy with the shorter shaft length.
+  
 ## import into tayda
 
 - go to the [tayda quick order](https://www.taydaelectronics.com/quick-order/) and in bottom corner choose _add from file_
@@ -58,6 +60,11 @@ take a look at the [full_bom](/hardware/bom/full_bom.csv) for this project to se
 - ensure that __Mouser Part Number__ is selected in the dropdown above the first row, then _next_, _process_
 - if everything looks correct can now put _add to basket_
 
+## selecting to omit some parts
+  
+- you may not want to include the 4x CV inputs in your build. in this case the 4x jacks, 4x resistors and 8x diode can be omitted from build
+- you can also omit the 4x pots if you only want to use c_l_i_k_r as a usb-keyboard (for example if you already have a midi controller to use with r_e_c_u_r)
+  
 # ordering pcbs
 
 you can support this project by buying individual pcbs from the [shop](https://underscores.shop). if you would rather have pcbs fabricated from gerbers directly the file you need is [here](/hardware/gerber_latest.zip) 
@@ -92,9 +99,13 @@ follow this link to view the [interactive BOM](https://htmlpreview.github.io/?ht
 - next i would do diodes, transistors and ic's - taking care that these are placed in the right direction (using a ic socket can be useful)
 - finally i place the interface parts - rca jacks, power jack, pots and switches - make sure these have lots of solder on for structural stablity
 
-## slightly more specific assembly advice
+## specific assembly advice
 
-[coming soon]
+- start with the lowest to place components : resistors and diodes, then do the tact buttons
+
+- if you want to be able to remove the pro-micro from the board you will need to solder header sockets to the board – otherwise can directly solder pro-micro header pins
+
+- finally place and solder the pots and jacks.
   
 ## flashing firmware onto the micro-controller
   
