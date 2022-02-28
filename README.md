@@ -12,6 +12,8 @@ a [r_e_c_u_r](https://github.com/cyberboy666/r_e_c_u_r) video sampler extension 
 
 __NOTE__ : _c_l_i_k_r is an extension circuit for my existing raspberry pi project [r_e_c_u_r](https://github.com/cyberboy666/r_e_c_u_r) - although this circuit will function as a stand alone midi+keypad controller it is mainly intended to be used with r_e_c_u_r_
 
+This is a custom controller designed to operate the rpi video instrument r_e_c_u_r. It uses an arduino pro-micro to send key-presses and midi values to the pi over usb
+
 - 20x tac-switches for discrete control
 - 4x knobs + 4x cv inputs for continuous control
 - firmware can be configured to send midi messages or keyboard presses
