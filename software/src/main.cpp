@@ -79,6 +79,7 @@ void loop() {
 
   if (key != NO_KEY){
      Keyboard.write(key);
+     Serial.write(key);
      }
 }
 
