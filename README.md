@@ -12,20 +12,22 @@ a [r_e_c_u_r](https://github.com/cyberboy666/r_e_c_u_r) video sampler extension 
 
 __NOTE__ : _c_l_i_k_r is an extension circuit for my existing raspberry pi project [r_e_c_u_r](https://github.com/cyberboy666/r_e_c_u_r) - although this circuit will function as a stand alone midi+keypad controller it is mainly intended to be used with r_e_c_u_r_
 
+This is a custom controller designed to operate the rpi video instrument r_e_c_u_r. It uses an arduino pro-micro to send key-presses and midi values to the pi over usb
+
 - 20x tac-switches for discrete control
 - 4x knobs + 4x cv inputs for continuous control
 - firmware can be configured to send midi messages or keyboard presses
+
+## demo video
+
+[![image](https://user-images.githubusercontent.com/12017938/156678133-727a9a17-e834-4673-8ae9-6127e9242f10.png)](https://videos.scanlines.xyz/w/5TracZESx6C4LqAozoKyDW)
+
 
 ### background
 
 this is an extension circuit that aims to offer an alternative to using cheapo plastic numpads to control recur. when i first designed recur i decided to use [these](https://www.aliexpress.com/item/4000748567192.html) numpads from aliexpress. my main goals at the time were making the project as simple and accessable as possible. however over the last few years many people have had problems using (possible variations?) of these numpads and others. seemingly similar devices run conflicting firmware, different layout of keys on different versions, crashes, gross hacks needed in the code, partial working units, and many more frustrating problems that are impossible for me to debug without owning every differnet device. i am also aware of contributing to the consumption of ecologically and ethically problematic products by endorsing these devices..
 
-alsonow that recur has evolved beyond just a sample-player, having continuous control over parameters (like shaders) is more important than it was before. still one of the best options is to use a korg-nano-kontrol or similar midi controller as this gives many faders to control effects with. however for people who dont have a nanokontrol or want to use it elsewhere in their setup, i have been thinking of a small cheap and simple alterative to using numpads:
-
-
-## demo video
-
-[video coming soon]
+alsonow that recur has evolved beyond just a sample-player, having continuous control over parameters (like shaders) is more important than it was before. still one of the best options is to use a korg-nano-kontrol or similar midi controller as this gives many faders to control effects with. however for people who dont have a nanokontrol or want to use it elsewhere in their setup, i have been thinking of a small cheap and simple alterative to using numpads
 
 # documentation
 
@@ -109,11 +111,33 @@ follow this link to view the [interactive BOM](https://htmlpreview.github.io/?ht
 
 - finally place and solder the pots and jacks.
   
+</details>
+  
+## firmware guide
+
+<details><summary><b>firmware guide</b> - for editing the code & flashing it to your micro-controller</summary>
+  
 ## flashing firmware onto the micro-controller
   
-if you have got a kit from the shop the firmware will be pre-configured - still you might want to read this so you can edit the code and update the midi mapping.
+if you have got a kit from the shop the default firmware will be pre-configured - still you probably will want to follow this so you can edit the code and update the mappings.
+  
+### install guide
+  
+all _underscores_ projects with micro-controllers use [platformio](https://platformio.org/) with [visual studio code](https://code.visualstudio.com/) to edit, flash and monitor the code.
+  
+- first download (and unzip) the code in this repo - easiest is [as a zip](https://github.com/cyberboy666/c_l_i_k_r/archive/refs/heads/main.zip) or you can clone using git if you are comfortable with this
+- next download, install and open [visual studio code](https://code.visualstudio.com/#alt-downloads)
+- now open the extension tab within vscode on left vertical menu (or press ctrl-shift-x) and search for `platformio` to install this extension
+  
+![image](https://user-images.githubusercontent.com/12017938/158495161-7c3114fc-814b-4acc-b142-4a9522370473.png)
 
-[more details coming soon]
+- connect the micro-controller to computer via usb, open the c_l_i_k_r software folder (ctrl-k ctrl-o) in vscode and find the _platformio_ commands (either in left vertical menu under _platformio_ or little tick/arrow symbols along bottom blue bar) - `PlatformIO: Upload` should flash the default code to your micro-controller
+  
+![image](https://user-images.githubusercontent.com/12017938/158495844-99466196-086a-47d2-b803-2b5941d33ac5.png)
+  
+### mapping edit guide
+  
+coming soon
   
 </details>
   
