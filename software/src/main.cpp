@@ -33,6 +33,7 @@ void sendCC(uint8_t channel, uint8_t control, uint8_t value) {
 	USBMIDI.write(0xB0 | (channel & 0xf));
 	USBMIDI.write(control & 0x7f);
 	USBMIDI.write(value & 0x7f);
+  USBMIDI.flush();
 }
 
 void checkAndSendValue(int old_analog_value, int new_analog_value, uint8_t control) {
