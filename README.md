@@ -6,8 +6,8 @@ a [r_e_c_u_r](https://github.com/cyberboy666/r_e_c_u_r) video sampler extension 
 - this circuit is distributed by __UNDERSCORES__ - _an open video hardware label_ : it is available to purchase - as a pcb, kit or assembled unit - at [underscores.shop](https://underscores.shop/c_l_i_k_r/)
 - the schematic for the circuit can be found [here](/hardware/schematic.pdf)
 - the pcb gerber files for the lastest version can be found [here](/hardware/gerber_latest.zip)
-- consider [donating](https://liberapay.com/underscores/) to the underscores project to help us continue creating for the commons
-
+- interactive BOM is [here](https://htmlpreview.github.io/?https://github.com/cyberboy666/c_l_i_k_r/blob/main/hardware/bom/ibom.html)
+- consider [donating](https://opencollective.com/underscores) to the underscores project to help us continue creating for the commons
 ## description
 
 __NOTE__ : _c_l_i_k_r is an extension circuit for my existing raspberry pi project [r_e_c_u_r](https://github.com/cyberboy666/r_e_c_u_r) - although this circuit will function as a stand alone midi+keypad controller it is mainly intended to be used with r_e_c_u_r_
@@ -31,7 +31,7 @@ alsonow that recur has evolved beyond just a sample-player, having continuous co
 
 # documentation
 
-this project is fully _open-source hardware_ - all the files required to build it are included in this repo for free. if you have the time and/or skill you can contribute back by collaborating on / testing new designs, improving these docs, making demo videos/other creative content etc. you can also support the project financially by [donating directing](https://liberapay.com/underscores/), or purchasing through the [web shop](https://underscores.shop).
+this project is fully _open-source hardware_ - all the files required to build it are included in this repo for free. if you have the time and/or skill you can contribute back by collaborating on / testing new designs, improving these docs, making demo videos/other creative content etc. you can also support the project financially by [donating directing](https://opencollective.com/underscores), or purchasing through the [web shop](https://underscores.shop).
 
 depending on whether you are going fully diy or buying an assembled and tested unit, some of the following guides will be relavent to you. the flow would be:
 
@@ -155,9 +155,28 @@ If you wish to instead connect a different midi device while using _c_l_i_k_r_ a
 
 The default mapping outputs `channel0: cc0 – cc3` on the 4 knobs and cv inputs of _c_l_i_k_r_ – this can be customised by editing the _c_l_i_k_r_ firmware. Tact buttons do not send midi by default but this can be enabled also in the firmware
 
+one thing to note is that the _c_l_i_k_r_ keyboard only sends _key_press_ commands, not any _key_release_ commands - for this reason "gated" presses will not work - if your __FN__ key is not working with c_l_i_k_r then make sure that __SETTINGS -> sampler -> FUNC_GATED == off__ (same for ACTION_GATED)
+
+[sending key_release commands may be possible in a future firmware updates so let me know if this is important to you ! ]
+
 ## flashing firmware to micro-controller
 
-[coming soon]
+if you have got a kit from the shop the default firmware will be pre-configured - still you can follow this guide so you can edit the code and update the firmware.
+  
+### install guide
+  
+all _underscores_ projects with micro-controllers use [platformio](https://platformio.org/) with [visual studio code](https://code.visualstudio.com/) to edit, flash and monitor the code.
+  
+- first download (and unzip) the code in this repo - easiest is [as a zip](https://github.com/cyberboy666/c_l_i_k_r/archive/refs/heads/main.zip) or you can clone using git if you are comfortable with this
+- next download, install and open [visual studio code](https://code.visualstudio.com/#alt-downloads)
+- now open the extension tab within vscode on left vertical menu (or press ctrl-shift-x) and search for `platformio` to install this extension
+  
+![image](https://user-images.githubusercontent.com/12017938/158495161-7c3114fc-814b-4acc-b142-4a9522370473.png)
+
+- connect the micro-controller to computer via usb, open the c_l_i_k_r software folder (ctrl-k ctrl-o) in vscode and find the _platformio_ commands (either in left vertical menu under _platformio_ or little tick/arrow symbols along bottom blue bar) - `PlatformIO: Upload` should flash the default code to your micro-controller
+  
+![image](https://user-images.githubusercontent.com/12017938/158495844-99466196-086a-47d2-b803-2b5941d33ac5.png)
+
   
 </details>
 
