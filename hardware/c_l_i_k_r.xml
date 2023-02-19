@@ -1,350 +1,397 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<export version="D">
+<export version="E">
   <design>
-    <source>/home/timcaldwell/projects/c_l_i_k_r/hardware/c_l_i_k_r.sch</source>
-    <date>Thu 07 Apr 2022 11:20:01</date>
-    <tool>Eeschema 5.1.10</tool>
+    <source>/home/timcaldwell/projects/c_l_i_k_r/hardware/c_l_i_k_r.kicad_sch</source>
+    <date>Sun 19 Feb 2023 12:51:45</date>
+    <tool>Eeschema 6.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>c_l_i_k_r</title>
         <company>cyberboy666</company>
         <rev>v_0_2_1</rev>
         <date>2022-02-22</date>
-        <source>c_l_i_k_r.sch</source>
+        <source>c_l_i_k_r.kicad_sch</source>
         <comment number="1" value="CC-BY-SA"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
       </title_block>
     </sheet>
   </design>
   <components>
-    <comp ref="U1">
-      <value>ProMicro</value>
-      <footprint>project_parts:ProMicro</footprint>
-      <libsource lib="promicro" part="ProMicro" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA2DA62</tstamp>
-    </comp>
-    <comp ref="SW1">
-      <value>Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA3D1EB</tstamp>
-    </comp>
-    <comp ref="SW2">
-      <value>Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA3E08B</tstamp>
-    </comp>
-    <comp ref="SW3">
-      <value>Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA3E7A2</tstamp>
-    </comp>
-    <comp ref="SW4">
-      <value>Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA3F10B</tstamp>
-    </comp>
-    <comp ref="SW5">
-      <value>Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA3F930</tstamp>
-    </comp>
-    <comp ref="SW6">
-      <value>Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA405CD</tstamp>
-    </comp>
-    <comp ref="SW7">
-      <value>Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA405D7</tstamp>
-    </comp>
-    <comp ref="SW8">
-      <value>Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA405E1</tstamp>
-    </comp>
-    <comp ref="SW9">
-      <value>Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA405EB</tstamp>
-    </comp>
-    <comp ref="SW10">
-      <value>Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA405F5</tstamp>
-    </comp>
-    <comp ref="SW11">
-      <value>Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA426E0</tstamp>
-    </comp>
-    <comp ref="SW12">
-      <value>Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA426EA</tstamp>
-    </comp>
-    <comp ref="SW13">
-      <value>Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA426F4</tstamp>
-    </comp>
-    <comp ref="SW14">
-      <value>Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA426FE</tstamp>
-    </comp>
-    <comp ref="SW15">
-      <value>Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA42708</tstamp>
-    </comp>
-    <comp ref="SW16">
-      <value>Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA42712</tstamp>
-    </comp>
-    <comp ref="SW17">
-      <value>Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA4271C</tstamp>
-    </comp>
-    <comp ref="SW18">
-      <value>Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA42726</tstamp>
-    </comp>
-    <comp ref="SW19">
-      <value>Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA42730</tstamp>
-    </comp>
-    <comp ref="SW20">
-      <value>Push</value>
-      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA4273A</tstamp>
-    </comp>
-    <comp ref="RV1">
-      <value>10k_pot</value>
-      <footprint>Potentiometer_THT:Potentiometer_Alps_RK09L_Single_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA6F5CC</tstamp>
-    </comp>
-    <comp ref="RV2">
-      <value>10k_pot</value>
-      <footprint>Potentiometer_THT:Potentiometer_Alps_RK09L_Single_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA7BC82</tstamp>
-    </comp>
-    <comp ref="RV3">
-      <value>10k_pot</value>
-      <footprint>Potentiometer_THT:Potentiometer_Alps_RK09L_Single_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA7F9FF</tstamp>
-    </comp>
-    <comp ref="RV4">
-      <value>10k_pot</value>
-      <footprint>Potentiometer_THT:Potentiometer_Alps_RK09L_Single_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA7FA21</tstamp>
-    </comp>
-    <comp ref="J3">
-      <value>mono_jack_3.5mm</value>
-      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA8384F</tstamp>
-    </comp>
-    <comp ref="D7">
-      <value>bat46</value>
-      <footprint>Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="D" description="Diode"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA8903C</tstamp>
-    </comp>
-    <comp ref="D3">
-      <value>bat46</value>
-      <footprint>Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="D" description="Diode"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA89BFC</tstamp>
-    </comp>
-    <comp ref="J4">
-      <value>mono_jack_3.5mm</value>
-      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FAA14E4</tstamp>
-    </comp>
-    <comp ref="D8">
-      <value>bat46</value>
-      <footprint>Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="D" description="Diode"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FAA14FB</tstamp>
-    </comp>
-    <comp ref="D4">
-      <value>bat46</value>
-      <footprint>Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="D" description="Diode"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FAA1505</tstamp>
-    </comp>
-    <comp ref="J1">
-      <value>mono_jack_3.5mm</value>
-      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FAA5CF4</tstamp>
-    </comp>
-    <comp ref="D5">
-      <value>bat46</value>
-      <footprint>Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="D" description="Diode"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FAA5D0B</tstamp>
-    </comp>
     <comp ref="D1">
       <value>bat46</value>
       <footprint>Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FAA5D15</tstamp>
-    </comp>
-    <comp ref="J2">
-      <value>mono_jack_3.5mm</value>
-      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FAA5D3B</tstamp>
-    </comp>
-    <comp ref="D6">
-      <value>bat46</value>
-      <footprint>Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="D" description="Diode"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FAA5D52</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005faa5d15</tstamps>
     </comp>
     <comp ref="D2">
       <value>bat46</value>
       <footprint>Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FAA5D5C</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005faa5d5c</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>bat46</value>
+      <footprint>Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa89bfc</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>bat46</value>
+      <footprint>Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005faa1505</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>bat46</value>
+      <footprint>Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005faa5d0b</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>bat46</value>
+      <footprint>Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005faa5d52</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>bat46</value>
+      <footprint>Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa8903c</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>bat46</value>
+      <footprint>Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005faa14fb</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>mono_jack_3.5mm</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005faa5cf4</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>mono_jack_3.5mm</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005faa5d3b</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>mono_jack_3.5mm</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa8384f</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>mono_jack_3.5mm</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005faa14e4</tstamps>
     </comp>
     <comp ref="R1">
       <value>1k</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60DF4C82</tstamp>
+      <tstamps>00000000-0000-0000-0000-000060df4c82</tstamps>
     </comp>
     <comp ref="R2">
       <value>1k</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60DF67FD</tstamp>
+      <tstamps>00000000-0000-0000-0000-000060df67fd</tstamps>
     </comp>
     <comp ref="R3">
       <value>1k</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60DF7205</tstamp>
+      <tstamps>00000000-0000-0000-0000-000060df7205</tstamps>
     </comp>
     <comp ref="R4">
       <value>1k</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60E0CE03</tstamp>
+      <tstamps>00000000-0000-0000-0000-000060e0ce03</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>10k_pot</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alps_RK09L_Single_Vertical</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa6f5cc</tstamps>
+    </comp>
+    <comp ref="RV2">
+      <value>10k_pot</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alps_RK09L_Single_Vertical</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa7bc82</tstamps>
+    </comp>
+    <comp ref="RV3">
+      <value>10k_pot</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alps_RK09L_Single_Vertical</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa7f9ff</tstamps>
+    </comp>
+    <comp ref="RV4">
+      <value>10k_pot</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alps_RK09L_Single_Vertical</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa7fa21</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa3d1eb</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa3e08b</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa3e7a2</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa3f10b</tstamps>
+    </comp>
+    <comp ref="SW5">
+      <value>Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa3f930</tstamps>
+    </comp>
+    <comp ref="SW6">
+      <value>Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa405cd</tstamps>
+    </comp>
+    <comp ref="SW7">
+      <value>Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa405d7</tstamps>
+    </comp>
+    <comp ref="SW8">
+      <value>Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa405e1</tstamps>
+    </comp>
+    <comp ref="SW9">
+      <value>Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa405eb</tstamps>
+    </comp>
+    <comp ref="SW10">
+      <value>Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa405f5</tstamps>
+    </comp>
+    <comp ref="SW11">
+      <value>Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa426e0</tstamps>
+    </comp>
+    <comp ref="SW12">
+      <value>Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa426ea</tstamps>
+    </comp>
+    <comp ref="SW13">
+      <value>Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa426f4</tstamps>
+    </comp>
+    <comp ref="SW14">
+      <value>Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa426fe</tstamps>
+    </comp>
+    <comp ref="SW15">
+      <value>Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa42708</tstamps>
+    </comp>
+    <comp ref="SW16">
+      <value>Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa42712</tstamps>
+    </comp>
+    <comp ref="SW17">
+      <value>Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa4271c</tstamps>
+    </comp>
+    <comp ref="SW18">
+      <value>Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa42726</tstamps>
+    </comp>
+    <comp ref="SW19">
+      <value>Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa42730</tstamps>
+    </comp>
+    <comp ref="SW20">
+      <value>Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa4273a</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ProMicro</value>
+      <footprint>project_parts:tht_ProMicro</footprint>
+      <libsource lib="promicro" part="ProMicro" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="c_l_i_k_r.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fa2da62</tstamps>
     </comp>
   </components>
   <libparts>
@@ -357,11 +404,12 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">AudioJack2_SwitchT</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="S" name="~" type="passive"/>
-        <pin num="T" name="~" type="passive"/>
-        <pin num="TN" name="~" type="passive"/>
+        <pin num="S" name="" type="passive"/>
+        <pin num="T" name="" type="passive"/>
+        <pin num="TN" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="D">
@@ -376,6 +424,7 @@
       <fields>
         <field name="Reference">D</field>
         <field name="Value">D</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
         <pin num="1" name="K" type="passive"/>
@@ -391,13 +440,14 @@
       <fields>
         <field name="Reference">R</field>
         <field name="Value">R</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="R_POT">
+    <libpart lib="Device" part="R_Potentiometer">
       <description>Potentiometer</description>
       <docs>~</docs>
       <footprints>
@@ -405,7 +455,8 @@
       </footprints>
       <fields>
         <field name="Reference">RV</field>
-        <field name="Value">R_POT</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
@@ -419,6 +470,7 @@
       <fields>
         <field name="Reference">SW</field>
         <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
@@ -431,26 +483,26 @@
         <field name="Value">ProMicro</field>
       </fields>
       <pins>
-        <pin num="1" name="TX" type="BiDi"/>
-        <pin num="2" name="RX" type="BiDi"/>
+        <pin num="1" name="TX" type="bidirectional"/>
+        <pin num="2" name="RX" type="bidirectional"/>
         <pin num="3" name="GND" type="power_in"/>
         <pin num="4" name="GND" type="power_in"/>
-        <pin num="5" name="SDA" type="BiDi"/>
-        <pin num="6" name="SCL" type="BiDi"/>
-        <pin num="7" name="D4" type="BiDi"/>
-        <pin num="8" name="C6" type="BiDi"/>
-        <pin num="9" name="D7" type="BiDi"/>
-        <pin num="10" name="E6" type="BiDi"/>
-        <pin num="11" name="B4" type="BiDi"/>
-        <pin num="12" name="B5" type="BiDi"/>
-        <pin num="13" name="B6" type="BiDi"/>
-        <pin num="14" name="B2" type="BiDi"/>
-        <pin num="15" name="B3" type="BiDi"/>
-        <pin num="16" name="B1" type="BiDi"/>
-        <pin num="17" name="F7" type="BiDi"/>
-        <pin num="18" name="F6" type="BiDi"/>
-        <pin num="19" name="F5" type="BiDi"/>
-        <pin num="20" name="F4" type="BiDi"/>
+        <pin num="5" name="SDA" type="bidirectional"/>
+        <pin num="6" name="SCL" type="bidirectional"/>
+        <pin num="7" name="D4" type="bidirectional"/>
+        <pin num="8" name="C6" type="bidirectional"/>
+        <pin num="9" name="D7" type="bidirectional"/>
+        <pin num="10" name="E6" type="bidirectional"/>
+        <pin num="11" name="B4" type="bidirectional"/>
+        <pin num="12" name="B5" type="bidirectional"/>
+        <pin num="13" name="B6" type="bidirectional"/>
+        <pin num="14" name="B2" type="bidirectional"/>
+        <pin num="15" name="B3" type="bidirectional"/>
+        <pin num="16" name="B1" type="bidirectional"/>
+        <pin num="17" name="F7" type="bidirectional"/>
+        <pin num="18" name="F6" type="bidirectional"/>
+        <pin num="19" name="F5" type="bidirectional"/>
+        <pin num="20" name="F4" type="bidirectional"/>
         <pin num="21" name="VCC" type="power_in"/>
         <pin num="22" name="RST" type="input"/>
         <pin num="23" name="GND" type="power_in"/>
@@ -460,13 +512,13 @@
   </libparts>
   <libraries>
     <library logical="Connector">
-      <uri>/app/extensions/Library/Symbols/share/kicad/library/Connector.lib</uri>
+      <uri>/app/extensions/Library/symbols//Connector.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>/app/extensions/Library/Symbols/share/kicad/library/Device.lib</uri>
+      <uri>/app/extensions/Library/symbols//Device.kicad_sym</uri>
     </library>
     <library logical="Switch">
-      <uri>/app/extensions/Library/Symbols/share/kicad/library/Switch.lib</uri>
+      <uri>/app/extensions/Library/symbols//Switch.kicad_sym</uri>
     </library>
     <library logical="promicro">
       <uri>/home/timcaldwell/projects/c_l_i_k_r/hardware/lib_sch/promicro.lib</uri>
@@ -474,172 +526,172 @@
   </libraries>
   <nets>
     <net code="1" name="+5V">
-      <node ref="RV1" pin="1"/>
-      <node ref="D4" pin="1"/>
-      <node ref="D3" pin="1"/>
-      <node ref="D2" pin="1"/>
-      <node ref="RV3" pin="1"/>
-      <node ref="RV2" pin="1"/>
-      <node ref="RV4" pin="1"/>
-      <node ref="U1" pin="21"/>
-      <node ref="D1" pin="1"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="VCC" pintype="power_in"/>
     </net>
-    <net code="2" name="Net-(D4-Pad2)">
-      <node ref="R2" pin="2"/>
-      <node ref="D8" pin="1"/>
-      <node ref="D4" pin="2"/>
-      <node ref="J4" pin="T"/>
+    <net code="2" name="GND">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="S" pintype="passive"/>
+      <node ref="J1" pin="TN" pintype="passive"/>
+      <node ref="J2" pin="S" pintype="passive"/>
+      <node ref="J2" pin="TN" pintype="passive"/>
+      <node ref="J3" pin="S" pintype="passive"/>
+      <node ref="J3" pin="TN" pintype="passive"/>
+      <node ref="J4" pin="S" pintype="passive"/>
+      <node ref="J4" pin="TN" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="3" name="analog_5">
-      <node ref="U1" pin="18"/>
-      <node ref="R2" pin="1"/>
+    <net code="3" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="T" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
     </net>
-    <net code="4" name="GND">
-      <node ref="RV1" pin="3"/>
-      <node ref="J3" pin="TN"/>
-      <node ref="J3" pin="S"/>
-      <node ref="U1" pin="23"/>
-      <node ref="J2" pin="S"/>
-      <node ref="J2" pin="TN"/>
-      <node ref="D6" pin="2"/>
-      <node ref="RV2" pin="3"/>
-      <node ref="J1" pin="S"/>
-      <node ref="RV3" pin="3"/>
-      <node ref="RV4" pin="3"/>
-      <node ref="J4" pin="S"/>
-      <node ref="J4" pin="TN"/>
-      <node ref="J1" pin="TN"/>
-      <node ref="D5" pin="2"/>
-      <node ref="D8" pin="2"/>
-      <node ref="D7" pin="2"/>
+    <net code="4" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="T" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
     </net>
     <net code="5" name="Net-(D3-Pad2)">
-      <node ref="J3" pin="T"/>
-      <node ref="D3" pin="2"/>
-      <node ref="R1" pin="2"/>
-      <node ref="D7" pin="1"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J3" pin="T" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
     </net>
-    <net code="6" name="Net-(D1-Pad2)">
-      <node ref="D5" pin="1"/>
-      <node ref="D1" pin="2"/>
-      <node ref="J1" pin="T"/>
-      <node ref="R3" pin="2"/>
+    <net code="6" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J4" pin="T" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
     </net>
-    <net code="7" name="analog_2">
-      <node ref="U1" pin="12"/>
-      <node ref="RV3" pin="2"/>
+    <net code="7" name="analog_0">
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="D7" pintype="bidirectional"/>
     </net>
-    <net code="8" name="analog_3">
-      <node ref="U1" pin="13"/>
-      <node ref="RV4" pin="2"/>
+    <net code="8" name="analog_1">
+      <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="B4" pintype="bidirectional"/>
     </net>
-    <net code="9" name="analog_1">
-      <node ref="RV2" pin="2"/>
-      <node ref="U1" pin="11"/>
+    <net code="9" name="analog_2">
+      <node ref="RV3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="B5" pintype="bidirectional"/>
     </net>
-    <net code="10" name="analog_4">
-      <node ref="R1" pin="1"/>
-      <node ref="U1" pin="17"/>
+    <net code="10" name="analog_3">
+      <node ref="RV4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="B6" pintype="bidirectional"/>
     </net>
-    <net code="11" name="key_y2">
-      <node ref="SW11" pin="1"/>
-      <node ref="SW12" pin="1"/>
-      <node ref="SW14" pin="1"/>
-      <node ref="SW13" pin="1"/>
-      <node ref="U1" pin="14"/>
-      <node ref="SW15" pin="1"/>
+    <net code="11" name="analog_4">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="F7" pintype="bidirectional"/>
     </net>
-    <net code="12" name="Net-(U1-Pad24)">
-      <node ref="U1" pin="24"/>
+    <net code="12" name="analog_5">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="F6" pintype="bidirectional"/>
     </net>
-    <net code="13" name="Net-(U1-Pad3)">
-      <node ref="U1" pin="3"/>
+    <net code="13" name="analog_6">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="F5" pintype="bidirectional"/>
     </net>
-    <net code="14" name="Net-(U1-Pad4)">
-      <node ref="U1" pin="4"/>
+    <net code="14" name="analog_7">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="F4" pintype="bidirectional"/>
     </net>
-    <net code="15" name="Net-(U1-Pad16)">
-      <node ref="U1" pin="16"/>
+    <net code="15" name="key_x0">
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW16" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="TX" pintype="bidirectional"/>
     </net>
-    <net code="16" name="Net-(U1-Pad22)">
-      <node ref="U1" pin="22"/>
+    <net code="16" name="key_x1">
+      <node ref="SW12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW17" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="RX" pintype="bidirectional"/>
     </net>
-    <net code="17" name="key_y3">
-      <node ref="SW18" pin="1"/>
-      <node ref="SW16" pin="1"/>
-      <node ref="U1" pin="15"/>
-      <node ref="SW19" pin="1"/>
-      <node ref="SW20" pin="1"/>
-      <node ref="SW17" pin="1"/>
+    <net code="17" name="key_x2">
+      <node ref="SW13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW18" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="SDA" pintype="bidirectional"/>
     </net>
-    <net code="18" name="key_y0">
-      <node ref="SW5" pin="1"/>
-      <node ref="SW4" pin="1"/>
-      <node ref="SW3" pin="1"/>
-      <node ref="SW2" pin="1"/>
-      <node ref="SW1" pin="1"/>
-      <node ref="U1" pin="8"/>
+    <net code="18" name="key_x3">
+      <node ref="SW14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW19" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="SCL" pintype="bidirectional"/>
     </net>
-    <net code="19" name="key_y1">
-      <node ref="SW7" pin="1"/>
-      <node ref="SW6" pin="1"/>
-      <node ref="SW9" pin="1"/>
-      <node ref="SW8" pin="1"/>
-      <node ref="SW10" pin="1"/>
-      <node ref="U1" pin="10"/>
+    <net code="19" name="key_x4">
+      <node ref="SW10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW15" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW20" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="D4" pintype="bidirectional"/>
     </net>
-    <net code="20" name="key_x2">
-      <node ref="SW13" pin="2"/>
-      <node ref="SW8" pin="2"/>
-      <node ref="U1" pin="5"/>
-      <node ref="SW18" pin="2"/>
-      <node ref="SW3" pin="2"/>
+    <net code="20" name="key_y0">
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="C6" pintype="bidirectional"/>
     </net>
-    <net code="21" name="key_x1">
-      <node ref="SW2" pin="2"/>
-      <node ref="SW17" pin="2"/>
-      <node ref="SW12" pin="2"/>
-      <node ref="U1" pin="2"/>
-      <node ref="SW7" pin="2"/>
+    <net code="21" name="key_y1">
+      <node ref="SW10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="E6" pintype="bidirectional"/>
     </net>
-    <net code="22" name="key_x0">
-      <node ref="SW6" pin="2"/>
-      <node ref="SW1" pin="2"/>
-      <node ref="SW16" pin="2"/>
-      <node ref="SW11" pin="2"/>
-      <node ref="U1" pin="1"/>
+    <net code="22" name="key_y2">
+      <node ref="SW11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="B2" pintype="bidirectional"/>
     </net>
-    <net code="23" name="key_x4">
-      <node ref="SW20" pin="2"/>
-      <node ref="SW5" pin="2"/>
-      <node ref="U1" pin="7"/>
-      <node ref="SW10" pin="2"/>
-      <node ref="SW15" pin="2"/>
+    <net code="23" name="key_y3">
+      <node ref="SW16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="B3" pintype="bidirectional"/>
     </net>
-    <net code="24" name="analog_6">
-      <node ref="U1" pin="19"/>
-      <node ref="R3" pin="1"/>
+    <net code="24" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in+no_connect"/>
     </net>
-    <net code="25" name="Net-(D2-Pad2)">
-      <node ref="D2" pin="2"/>
-      <node ref="R4" pin="2"/>
-      <node ref="J2" pin="T"/>
-      <node ref="D6" pin="1"/>
+    <net code="25" name="unconnected-(U1-Pad4)">
+      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in+no_connect"/>
     </net>
-    <net code="26" name="analog_7">
-      <node ref="R4" pin="1"/>
-      <node ref="U1" pin="20"/>
+    <net code="26" name="unconnected-(U1-Pad16)">
+      <node ref="U1" pin="16" pinfunction="B1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="27" name="key_x3">
-      <node ref="SW19" pin="2"/>
-      <node ref="SW14" pin="2"/>
-      <node ref="SW9" pin="2"/>
-      <node ref="U1" pin="6"/>
-      <node ref="SW4" pin="2"/>
+    <net code="27" name="unconnected-(U1-Pad22)">
+      <node ref="U1" pin="22" pinfunction="RST" pintype="input+no_connect"/>
     </net>
-    <net code="28" name="analog_0">
-      <node ref="RV1" pin="2"/>
-      <node ref="U1" pin="9"/>
+    <net code="28" name="unconnected-(U1-Pad24)">
+      <node ref="U1" pin="24" pinfunction="RAW" pintype="power_out+no_connect"/>
     </net>
   </nets>
 </export>
